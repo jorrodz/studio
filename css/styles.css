@@ -1,0 +1,380 @@
+/* CSS Document */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #020202;
+    color: #f5deb3;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.navbar-brand {
+    color: wheat;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-brand:hover {
+    color: #999898;
+}
+
+.navbar-nav .active {
+    color: #04af96 !important;
+}
+
+.navbar-nav .active:hover {
+    color: #999898 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #f5deb3;
+    padding: .2rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #999898;
+}
+
+.fa-bars {
+    color: rgb(245, 222, 179);
+    font-size: 1.7rem;
+}
+
+.fixed-top {
+    background-color: rgb(59, 2, 26);
+}
+
+/* Home */
+
+.home {
+    margin-top: 5rem;
+}
+
+.home .name h1 {
+    font-size: 2rem;
+}
+
+.home .name a {
+    text-decoration: none;
+}
+
+.carousel-inner {
+    -webkit-box-shadow: 0 0 30px 10px rgba(245, 222, 179, .550);
+    -moz-box-shadow: 0 0 30px 10px rgba(245, 222, 179, .550);
+    box-shadow: 0 0 30px 10px rgba(245, 222, 179, .550);
+}
+
+.carousel .carousel-item {
+    -webkit-transition-duration: 1.5s;
+    -moz-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+}
+
+.carousel-caption h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    color: #020202;
+}
+
+.animated {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 0s;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+/*  Services */
+
+.services .card-body {
+    background-color: #4b0321;
+    /* box-shadow: 0px 10px 9px 0px rgba(0, 0, 0, 0.6); */
+}
+
+/* Modal */
+
+
+.modal-full {
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal-full .modal-dialog {
+    margin: 0;
+    height: 100%;
+}
+
+.modal-full .modal-content {
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+.modal-full .modal-content .modal-body {
+    padding: 0;
+    height: 100%;
+}
+
+.modal-full .modal-content .carousel {
+    height: 100%;
+}
+
+.modal-full .modal-content .carousel-actions {
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+.modal-full .modal-content .carousel-inner {
+    height: 100%;
+}
+
+.modal-full .modal-content .carousel-inner>.carousel-item {
+    height: 100%;
+    top: 0;
+}
+
+.modal-full .modal-content .carousel-inner>.carousel-item>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0;
+}
+
+/* Adjustments */
+
+.services .btn-primary {
+    background-color: #4b0321 !important;
+    margin: 20px 0;
+    border: none;
+    display: block;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition: all 0.5s;
+}
+
+.services .btn-primary:hover {
+    background-color: #003B32 !important;
+}
+
+.services .btn-primary img {
+    padding: 10px 0;
+    border-bottom: 3px solid #003B32;
+}
+
+.modal-title {
+    background-color: #f8d38e;
+    margin: 1rem 0;
+    border-radius: 50px 0 50px 0;
+    color: black;
+    font-weight: bold;
+}
+
+.name h1 {
+    background-color: #003B32;
+    text-align: center;
+    color: wheat;
+    padding: .7rem;
+    width: 100% !important;
+}
+
+.services .close {
+    color: white;
+    opacity: 1;
+}
+
+/* Event */
+
+
+
+
+
+/* About */
+
+.about {
+    background: linear-gradient(to left, rgba(33, 33, 33, 0.27), rgb(33, 33, 33)), url(../images/about/parallax.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: wheat;
+    text-align: center;
+}
+
+.about .row img {
+    box-shadow: 0 0 15px 0 rgba(2, 2, 2, 0.75);
+}
+
+.about p {
+    font-weight: 500;
+}
+
+.about span {
+    font-style: italic;
+}
+
+.description {
+    padding-bottom: 2rem;
+}
+
+/* Team */
+
+.card {
+    background-color: #003B32;
+    color: wheat;
+    border: none;
+}
+
+.card-title {
+    margin-top: 2rem;
+}
+
+.card-footer {
+    background-color: #3b021a;
+}
+
+.card-footer .fab {
+    color: wheat;
+}
+
+.card-footer .fab:hover {
+    color: #999898;
+}
+
+
+/* Contact */
+
+.contact {
+    text-align: center;
+}
+
+
+.title img {
+    margin-bottom: 3rem;
+}
+
+form {
+    padding: 1.8rem;
+}
+
+.form-control {
+    background-color: transparent;
+    border-radius: 0;
+    border: #020202;
+    border-bottom: 1px solid wheat;
+    margin-top: 5px;
+    height: 45px;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    border-color: #020202;
+    border-bottom: 1px solid wheat;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.fa-paper-plane,
+.fa-map-signs {
+    color: wheat;
+}
+
+.btn-primary,
+.btn-outline-dark {
+    background-color: #3b021a !important;
+    color: wheat;
+    outline: none !important;
+    border: 2px solid #3b021a !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-weight: bold;
+}
+
+.btn-primary:hover,
+.btn-outline-dark:hover {
+    color: #999898 !important;
+}
+
+/* Footer */
+
+.footer {
+    background: #3b021a !important;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .text-muted {
+    color: wheat !important;
+}
+
+/* Font Awesome */
+
+.social .fab {
+    font-size: 1.5rem;
+    color: wheat;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.social .fab:hover {
+    color: #999898;
+}
+
+/* Back To Top Button */
+
+.back-to-top {
+    position: fixed;
+    bottom: 7rem;
+    right: 1.5rem;
+    color: wheat;
+    font-size: .8rem;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 999;
+    line-height: 0;
+    display: none;
+    transition: all .5s ease;
+}
+
+.back-to-top:hover i {
+    color: #585757;
+}
+
+/* Media Queries */
+
+
+@media (min-width: 768px) {
+    .social .fab {
+        padding: .5rem;
+    }
+
+    .back-to-top {
+        bottom: 3rem;
+    }
+
+    .footer .text-muted {
+        font-size: 1.1rem !important;
+    }
+
+}
